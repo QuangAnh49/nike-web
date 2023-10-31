@@ -14,7 +14,7 @@ const Footer = () => {
             adipisci doloremque molestiae fugiat ea soluta molestias nostrum alias quia corrupti dolorem repudiandae,
             esse deserunt odit.
           </p>
-          <div className=" flex items-center gap5 mt-8">
+          <div className=" flex items-center gap-5 mt-8">
             {socialMedia.map(social => (
               <div key={social.alt} className=" flex justify-center items-center w-12 h-12 bg-white rounded-full">
                 <img src={social.src} alt={social.alt} width={24} height={24} />
